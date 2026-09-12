@@ -1,0 +1,17 @@
+id: auto_dataset_capture
+name: Auto Dataset Capture
+name[zh]: 自动训练集采集
+version: 1.0.0
+author: yz
+desc: Capture a clean 640x480 JPEG every three seconds
+desc[zh]: 每三秒自动保存一张干净的640x480训练图片
+exclude:
+  - __pycache__
+  - .git
+  - README.md
+icon: app.png
+files:
+  - app.png
+  - app.yaml
+  - main.py
+  - README.md

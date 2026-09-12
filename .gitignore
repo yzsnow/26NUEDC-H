@@ -1,0 +1,49 @@
+# Windows / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+.claude/
+**/AGENTS.md
+
+# Python / MaixVision local state
+__pycache__/
+*.py[cod]
+**/.maixpy/
+**/.eide/
+**/.cmsis/
+**/dist/
+**/_snapshots/
+
+# Local backups and generated report workspace
+**/Backups/
+**/.codex-doc-work/
+**/.codex-report-work/
+*.zip
+*.sha256
+
+# Keil/uVision generated files and per-user state
+**/Objects/
+**/Listings/
+*.o
+*.d
+*.axf
+*.hex
+*.lnp
+*.map
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+JLinkSettings.ini
+Nu_Link_Driver.ini
+codex_*_build.log
+codex_build.log
+
+# Generic build output
+build/
+bin/
+obj/
+out/
+*.log

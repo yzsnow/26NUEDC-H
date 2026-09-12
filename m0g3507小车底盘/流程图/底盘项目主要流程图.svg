@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="2300" viewBox="0 0 1900 2300"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs><rect width="100%" height="100%" fill="#F8FAFC"/>
+<text x="800" y="92" text-anchor="middle" font-family="Microsoft YaHei" font-size="58" font-weight="700" fill="#1F2937">底盘项目主要流程图</text>
+<text x="800" y="142" text-anchor="middle" font-family="Microsoft YaHei" font-size="27" fill="#64748B">根据2026年7月31日最新底盘程序更新</text>
+<rect x="480" y="190" width="640" height="110" rx="28" fill="#DCFCE7" stroke="#15803D" stroke-width="4"/>
+<text x="800.0" y="258.3" text-anchor="middle" font-family="Microsoft YaHei" font-size="38" font-weight="700" fill="#1F2937">上电 / 复位</text>
+<rect x="250" y="370" width="1100" height="200" rx="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+<text x="800.0" y="458.47999999999996" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">系统初始化</text>
+<text x="800.0" y="503.91999999999996" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">电机、编码器、红外传感器、G356、OLED及惯性遥测</text>
+<rect x="310" y="650" width="980" height="170" rx="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+<text x="800.0" y="723.12" text-anchor="middle" font-family="Microsoft YaHei" font-size="33" font-weight="700" fill="#1F2937">选择比赛任务</text>
+<text x="800.0" y="769.98" text-anchor="middle" font-family="Microsoft YaHei" font-size="33" font-weight="700" fill="#1F2937">T2高速单圈 / T4定向直行 / T5·6稳速单圈</text>
+<rect x="310" y="900" width="980" height="170" rx="28" fill="#F3E8FF" stroke="#7E22CE" stroke-width="4"/>
+<text x="800.0" y="973.48" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">按需设置目标距离</text>
+<text x="800.0" y="1018.9200000000001" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">T2定长停车距离或T4直行距离</text>
+<rect x="310" y="1150" width="980" height="170" rx="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+<text x="800.0" y="1223.48" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">确认启动</text>
+<text x="800.0" y="1268.92" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">编码器清零、开始计时并启动控制器</text>
+<rect x="250" y="1400" width="1100" height="180" rx="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+<text x="800.0" y="1478.48" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">读取传感器数据</text>
+<text x="800.0" y="1523.92" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">红外传感器位置、编码器里程、G356姿态</text>
+<rect x="250" y="1660" width="1100" height="220" rx="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+<text x="800.0" y="1735.76" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">执行底盘控制</text>
+<text x="800.0" y="1781.2" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">循迹任务：红外传感器PID差速</text>
+<text x="800.0" y="1826.6399999999999" text-anchor="middle" font-family="Microsoft YaHei" font-size="32" font-weight="700" fill="#1F2937">任务4：陀螺仪定向直行</text>
+<polygon points="800.0,1960 1210,2050.0 800.0,2140 390,2050.0" fill="#FFEDD5" stroke="#C2410C" stroke-width="4"/>
+<text x="800.0" y="2062.25" text-anchor="middle" font-family="Microsoft YaHei" font-size="35" font-weight="700" fill="#1F2937">到达终点或发生异常？</text>
+<rect x="210" y="2180" width="480" height="110" rx="28" fill="#FEE2E2" stroke="#B91C1C" stroke-width="4"/>
+<text x="450.0" y="2224.56" text-anchor="middle" font-family="Microsoft YaHei" font-size="29" font-weight="700" fill="#1F2937">平滑减速或制动停车</text>
+<text x="450.0" y="2265.74" text-anchor="middle" font-family="Microsoft YaHei" font-size="29" font-weight="700" fill="#1F2937">显示最终结果</text>
+<rect x="910" y="2180" width="480" height="110" rx="28" fill="#DCFCE7" stroke="#15803D" stroke-width="4"/>
+<text x="1150.0" y="2224.2" text-anchor="middle" font-family="Microsoft YaHei" font-size="30" font-weight="700" fill="#1F2937">继续运行</text>
+<text x="1150.0" y="2266.7999999999997" text-anchor="middle" font-family="Microsoft YaHei" font-size="30" font-weight="700" fill="#1F2937">返回传感器采集</text>
+<rect x="1480" y="1640" width="380" height="250" rx="28" fill="#CFFAFE" stroke="#0891B2" stroke-width="4"/>
+<text x="1670.0" y="1738.25" text-anchor="middle" font-family="Microsoft YaHei" font-size="25" font-weight="700" fill="#1F2937">UART1 50 Hz惯性遥测</text>
+<text x="1670.0" y="1773.75" text-anchor="middle" font-family="Microsoft YaHei" font-size="25" font-weight="700" fill="#1F2937">向视觉控球主控发送</text>
+<text x="1670.0" y="1809.25" text-anchor="middle" font-family="Microsoft YaHei" font-size="25" font-weight="700" fill="#1F2937">姿态、速度、加速度及PWM</text>
+<line x1="800" y1="300" x2="800" y2="370" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="570" x2="800" y2="650" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="820" x2="800" y2="900" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="1070" x2="800" y2="1150" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="1320" x2="800" y2="1400" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="1580" x2="800" y2="1660" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="800" y1="1880" x2="800" y2="1960" stroke="#2563EB" stroke-width="6" marker-end="url(#a)"/>
+<line x1="590" y1="2140" x2="450" y2="2180" stroke="#B91C1C" stroke-width="6" marker-end="url(#a)"/>
+<line x1="1010" y1="2140" x2="1150" y2="2180" stroke="#15803D" stroke-width="6" marker-end="url(#a)"/>
+<text x="500" y="2180" font-family="Microsoft YaHei" font-size="27" font-weight="700" fill="#B91C1C">是</text><text x="1060" y="2180" font-family="Microsoft YaHei" font-size="27" font-weight="700" fill="#15803D">否</text>
+<polyline points="1390,2235 1840,2235 1840,1490 1350,1490" fill="none" stroke="#15803D" stroke-width="6" marker-end="url(#a)"/>
+<line x1="1350" y1="1770" x2="1480" y2="1770" stroke="#0891B2" stroke-width="6" marker-end="url(#a)"/>
+<polyline points="1670,1890 1670,1920 800,1920 800,1960" fill="none" stroke="#0891B2" stroke-width="4"/>
+</svg>

@@ -1,0 +1,30 @@
+id: hti
+name: hit2
+name[zh]: 摆杆滚球控制
+version: 0.1.2
+icon: app.png
+author: liuargo
+desc: Vision cascade control with bounded chassis inertia feed-forward.
+desc[zh]: 视觉级联闭环与底盘惯性前馈的摆杆滚球控制。
+files:
+  - app.png
+  - app.yaml
+  - main.py
+  - ball_position.py
+  - board_light.py
+  - cascade.py
+  - ctrl_ui.py
+  - inertia_feedforward.py
+  - motor_diag.py
+  - pid.py
+  - probe.py
+  - task3_config.py
+  - task3_ctrl.py
+  - 惯性前馈_现场操作.md
+  - TASK3_现场操作.md
+  - zdt_motor.py
+  - uart_pin_probe.py
+  - test_inertia_feedforward.py
+  - models\my_ball_maixcam2\best_npu.axmodel
+  - models\my_ball_maixcam2\best_vnpu.axmodel
+  - models\my_ball_maixcam2\best.mud

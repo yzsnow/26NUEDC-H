@@ -1,0 +1,25 @@
+id: hti
+name: hit2-no-feedforward
+name[zh]: 摆杆滚球控制（无前馈对照）
+version: 0.1.0
+icon: app.png
+author: liuargo
+desc: Vision cascade control via ZDT stepper UART without chassis feed-forward.
+desc[zh]: 通过串口控制 ZDT 步进电机的视觉级联闭环对照版本，不启用底盘惯性前馈。
+files:
+  - app.png
+  - app.yaml
+  - main.py
+  - ball_position.py
+  - board_light.py
+  - cascade.py
+  - ctrl_ui.py
+  - pid.py
+  - probe.py
+  - motor_diag.py
+  - task3_config.py
+  - task3_ctrl.py
+  - zdt_motor.py
+  - models\my_ball_maixcam2\best_npu.axmodel
+  - models\my_ball_maixcam2\best_vnpu.axmodel
+  - models\my_ball_maixcam2\best.mud
